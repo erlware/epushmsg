@@ -1,0 +1,11 @@
+%% -*- erlang -*-
+{application, epushmsg,
+ [{description, "Erlang API for Urban Airship push notifications"},
+  {vsn, "0.0.1"},
+  {applications, [
+                  kernel
+                  ,stdlib
+                  ,hackney
+                 ]},
+  {start_phases, []}
+ ]}.
